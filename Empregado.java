@@ -6,6 +6,14 @@ public class Empregado{
   private String nome;
   private int idade;
 
+  public void setTipo(int tipo){
+    this.tipo = tipo;
+  }
+
+  public int getTipo(){
+    return tipo;
+  }
+
   public double calculaSalario(){
     if (tipo == 1)
       return salario;
